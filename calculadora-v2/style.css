@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg ,#FA3415,#FFF348,#0C51DD,#000E00);
+    height: 100vh;
+}
+
+p{
+    width: 300px;
+    height: 80px;
+    margin-bottom: 30px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#content{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.425);
+    width: 300px;
+    height: 460px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+
+}
+
+.botoes{
+    text-indent: 24px;
+}
+
+.botao{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-size: 1em;
+    margin-top: 3px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border-color: none;
+    box-shadow: none;
+}
+.diferente{
+    font-size: 1em;
+    background-color: grey;
+    margin-top: 3px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border-color: none;
+    box-shadow: none;
+}
+.outro{
+    font-size: 1em;
+    background-color: orange;
+    margin-top: 3px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border-color: none;
+    box-shadow: none;
+} 
+.espaco{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    margin-top: 3px;
+    height: 60px;
+    text-indent: 20px;
+    font-size: 1em;
+    width: 100px;
+    padding-right: 120px;
+    border-radius: 30px;
+    border-color: none;
+    box-shadow: none;
+}

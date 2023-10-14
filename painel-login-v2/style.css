@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagens/projeto1.jpg);
+   /* background-image: linear-gradient(to right ,#023535, #015958,#008F8C,#0CABA8,#0FC2C0);*/
+    height: 100vh;
+}
+#geral{
+    position: absolute;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    color: white;
+    background-color: rgba(50, 66, 102, 0.842);
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#geral > h1{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+#geral > h1 >a:hover{
+    color: #0CABA8;
+    text-decoration: underline;
+}
+#geral > h1 >span >a:hover{
+    color: #0CABA8;
+    text-decoration: underline;
+}
+#espaco{
+    font-size: 14px;
+    margin-left: 11px;
+}
+#geral > p{
+    text-align: center;
+    font-size: 10px;
+}
+#check{
+    margin-top: 14px;
+    margin-left: 47px;
+
+}
+#salvar{
+    font-size: 13px;
+}
+#login{
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    text-indent: 13px;
+}
+#login:hover{
+    background-color: rgba(158, 158, 158, 0.568);
+}
+#senha
+{
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    text-indent: 13px;
+}
+#senha:hover{
+    background-color:rgba(158, 158, 158, 0.568) ;
+}
+#entrar{
+    height: 30px;
+    width: 200px;
+    margin-top: 18px;
+    color: white;
+    background-color: #0FC2C0;
+    border: none;
+    border-radius: 5px;
+}
+#entrar:hover{
+    background-color: rgba(0, 0, 0, 0.274);
+    cursor: pointer;
+}
+p{
+    padding-bottom: 3px;
+}

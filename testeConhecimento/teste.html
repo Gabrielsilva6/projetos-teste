@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagensteste/net.ico" type="image/x-icon">
+    <title>Praticar</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+       @font-face{
+        font-family: 'Acient';
+        src: url('fontes/Ancient Medium.ttf') format(truetype);
+        font-size: 3em;
+        font-weight: normal;
+        font-style: normal;
+       }
+       @font-face{
+        font-family: 'gotico';
+        src: url('fontes/Sketch Gothic School.ttf');
+        font-size: 2em;
+        font-weight: normal;
+        font-style: normal;
+       }
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+       }
+
+        h1,h2{
+            font-family: 'Croissant One', cursive;
+        }
+        ol{
+            font-family: 'gotico';
+        }
+        mark{
+            background-color: green;
+        }
+        img{
+        background-color: black;
+        }
+        ul,dt{
+            font-family: 'Acient';
+        }
+    </style>
+</head>
+<body>
+    <h1>Praticando agora</h1>
+    <h2>Conhecimento que já aprendi</h2>
+    <p><em>Lorem <mark>ipsum dolor</mark> sit amet</em>, <small>consectetur adipisicing</small> elit. Quidem <del>architecto esse</del>, <ins>eaque incidunt</ins> non ea a <abbr title="ODIO DE VERTITAIS">veritatis odio</abbr> <q><strong>aperiam dolore</strong></q> in <em>laboriosam</em> fuga fugit? <code>Exercitationem</code> debitis distinctio aspernatur ipsa eum?</p>
+    <h2>Outros Conhecimentos</h2>
+    <p>
+        símbolos:
+        &Delta;
+        &euro;
+        &dollar;
+        &cent;
+        <br>
+        emojis:
+        &#x2705;
+        &#x1f480;
+        &#x1f844
+
+    </p>
+    <h2>Texto Sobrescrito / Subscrito</h2>
+    <p>x<sup>2</sup> x 2<br><br>
+        H<sub>2</sub>O
+        ,CO<sub>2</sub>, FO<sub>3</sub>
+    </p>
+    <h2>Colunas</h2>
+    <p>
+        <pre>
+            skajhjasdahshdjhajkjdahkjdha
+            sdajsdhjkahsjkdhajkshdjas
+            sdjakjdkjaskjkldjaklsd
+            adjsakjdklaljjsdlkjklas
+        </pre>
+
+    </p>
+    <h2>Deslocadas</h2>
+    <p>
+        <blockquote>
+            <code><del>Lorem ipsum dolor</del> <ins>sit amet consectetur</ins>, adipisicing elit. <q><strong>Numquam</strong></q>, optio. Illo doloribus facilis, iusto blanditiis <mark>explicabo</mark> porro velit <abbr title="NADA">sit</abbr> culpa excepturi <mark style="background-color: aqua;">exercitationem tenetur!</mark> <em>Cupiditate ipsum dolores</em> unde necessitatibus ipsam corporis!</code>
+        </blockquote>
+    </p>
+    <img src="imagensteste/teste.png" alt="Imagem teste"><br>
+    <img src="imagensteste/logo.jpg" alt="Logo Css">
+    <h2>Listas Ordenadas / Não ordenadas</h2>
+    <ol type="A" start="1"><!--Odenadas-->
+        <li>Banana</li>
+        <li>Limão</li>
+        <li>Maçã</li>
+        <li>Pera</li>
+
+
+    </ol>
+    <ul type="circle"><!--Não ordenadas-->
+        <li>Banana</li>
+        <li>Pera</li>
+        <li>Maçã</li>
+        <li>Uva</li>
+        <li>Morango</li>
+
+    </ul>
+    <h2>Listas Misturadas</h2>
+    <ol>
+        <li>Marca de peças de PC</li>
+        <ul>
+            <li>Placa mãe</li>
+            <ol>
+                <li>Asrock</li>
+                <li>Asus</li>
+                <li>Gigabyte</li>
+                <li>Eup</li>
+                
+            </ol>
+        </ul>
+        <ul>
+            <li>Processador</li>
+            <ol>
+                <li>AMD</li>
+                <li>Intel</li>
+
+            </ol>
+        </ul>
+        <ul>
+            <li>Placa de video</li>
+            <ol>
+                <li>Gygabyte</li>
+                <li>Asus</li>
+                <li>Galax</li>
+                <li>Zotac</li>
+
+            </ol>
+
+        </ul>
+        <ul>
+            <li>Memória ram</li>
+            <ol>
+                <li>Asgard</li>
+                <li>Klissre</li>
+            </ol>
+        </ul>
+
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dt>COMPUTADOR</dt>
+    <dd>O computador é feito por peças</dd>
+    <h2>Vou adicionar o link de um video</h2>
+    <p><a href="https://youtube.com/cursoemvideo" target="_blank" rel="external">Video do curso em video</a></p>
+    <ul style="font-family: Arial, Helvetica, sans-serif;">
+        <li><a href="app/App.apk" download="app.apk">Baixe o apk aqui</a></li>
+        <li><a href="app/nada.jpg" download="nada.jpg">Baixe a imagem aqui</a></li>
+        <li><a href="https://github.com/gustavoguanabara/html-css" target="_blank" rel="external">Acesse o GitHub aqui</a></li>
+    </ul>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagensteste/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagensteste/fotom.png" type="image/png">
+        <img src="imagensteste/fotog.png" alt="foto grande">
+    </picture>
+    <video width="200" poster="imagensteste/logo.jpg" controls  >
+        <source src="video/meuvideo.mp4" type="video/mp4">
+        <source src="video/meuvideo.webm" type="video/webm">
+    </video>
+    <audio src="audio/music.mp3" controls></audio>
+    <h2>Adicionando vídeos externos</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VaoBgB8gPXU?si=WNaZ8WebIyb2hs1K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/f58W_FVXBLg?si=O__bIR7aUdTCLidR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RAhDUkyj-l0?si=WzucRXtxH6JyVZO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h2>Vídeos do vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/582518956?h=95b3d22837&color=00baff&title=0&byline=0&portrait=0&badge=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/582518956">Facebook - Longboard Family</a> from <a href="https://vimeo.com/user14547711">Droga5 New York</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+</body>
+</html>

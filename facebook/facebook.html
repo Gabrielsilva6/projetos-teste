@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="face.ico" type="image/x-icon">
+    <title>Entrar no Facebook</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        img{
+            position: absolute;
+            max-width: 250px;
+            top: -80px;
+            right: 41px;
+        }
+        .content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.192);
+            border-radius: 5px;
+            border: 1px solid rgba(0, 0, 0, 0.151);
+        }
+        .login{
+            padding: 15px;
+        }
+        #email{
+            border-radius: 4px;
+            margin: 5px;
+            padding: 5px;
+            font-size: 1em;
+            border-color: rgba(0, 0, 0, 0.137);
+            height: 40px;
+            width: 300px;
+        }
+        #senha{
+            border-radius: 4px;
+            margin: 5px;
+            padding: 5px;
+            font-size: 1em;
+            border-color: rgba(0, 0, 0, 0.137);
+            height: 40px;
+            width: 300px;
+        }
+        h1{
+            text-align: center;
+            font-size: 18px;
+            font-weight: normal;
+        }
+        .entrar{
+            background-color: #166FE5;
+            margin: 5px;
+            color: white;
+            height: 50px;
+            width: 314px;
+            border-color: rgba(0, 0, 0, 0.034);
+            border-radius: 5px;
+            font-size: 19px;
+            transform: translate(0px);
+        }
+        .entrar:hover{
+            background-color: #1565ce;
+            cursor: pointer;
+        }
+        p{
+            text-align: center;
+            margin: 10px;
+            font-size: 14px;
+        }
+        .criar{
+            background-color: #44c02b;
+            border-color: rgba(0, 0, 0, 0);
+            border-radius: 5px;
+            height: 40px;
+            width: 150px;
+            color: white;
+            font-size: 16px;
+            transform: translate(55%,15%);
+            
+        }
+        .criar:hover{
+            background-color: #40b428;
+            cursor: pointer;
+        }
+        hr{
+        width: 30px;
+        }
+        a{
+            text-decoration: none;
+            color: #166FE5;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <img src="facebook1.png" alt="imagemface">
+        <div class="login">
+            <h1>Entrar no Facebook</h1>
+            <input type="text" name="email" id="email" placeholder="Email ou telefone">
+            <div><input type="password" name="senha" id="senha" placeholder="Senha"></div>
+            <div><a href="#"><button class="entrar">Entrar</button></a></div>
+            <p><a href="#">Esqueceu a conta?</a></p>
+            <p>ou</p>
+            <button class="criar">Criar nova conta</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
