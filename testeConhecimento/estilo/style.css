@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+       @font-face{
+        font-family: 'Acient';
+        src: url('fontes/Ancient Medium.ttf') format(truetype);
+        font-size: 3em;
+        font-weight: normal;
+        font-style: normal;
+       }
+       @font-face{
+        font-family: 'gotico';
+        src: url('fontes/Sketch Gothic School.ttf');
+        font-size: 2em;
+        font-weight: normal;
+        font-style: normal;
+       }
+
+       *{
+        margin: 0;
+        padding: 0;
+       }
+       
+       #content{
+        background-color: aqua;
+        max-width: 800px;
+        margin: auto;
+       }
+       
+       content h1,h2{
+        text-align: center;
+       }
+
+       header h1{
+        text-align: center;
+        margin-bottom: 30px;
+       }
+
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+       }
+
+        h1,h2{
+            font-family: 'Croissant One', cursive;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        ol{
+            font-family: 'gotico';
+            list-style-position: inside;
+            margin: 10px;
+        }
+
+        mark{
+            background-color: green;
+        }
+
+        img{
+        background-color: black;
+        max-width: 800px;
+        height: 100%;
+        }
+
+        ul,dt{
+            font-family: 'Acient';
+            list-style-position: inside;
+            margin: 10px;
+        }
+        .ana{
+            margin: auto;
+            max-width: 800px;
+            height: 320px;
+            position: relative;
+            background-color: red;
+        }
+
+        .video{
+            position: absolute;
+            max-width: 100%;
+            max-height: 100%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+
+        }
