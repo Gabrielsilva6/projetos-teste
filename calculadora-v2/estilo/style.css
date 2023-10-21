@@ -10,15 +10,16 @@ body{
     height: 100vh;
 }
 
-p{
-    width: 300px;
-    height: 80px;
-    margin-bottom: 30px;
-    border-radius: 20px 20px 0px 0px;
+#resultado{
+    text-align: right;
+    font-size: 4em;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    padding-right: 30px;
 }
 
 #content{
-    position: relative;
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.425);
     width: 300px;
     height: 460px;
@@ -26,54 +27,54 @@ p{
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 20px;
+    padding-bottom: 20px;
 
 }
 
-.botoes{
-    text-indent: 24px;
+table {
+    margin: auto;
 }
 
 .botao{
     background-color: rgb(39, 39, 39);
     color: white;
-    font-size: 1em;
-    margin-top: 3px;
     height: 60px;
     width: 60px;
-    border-radius: 100%;
     border-color: none;
-    box-shadow: none;
+    border-radius: 100%;
+    border: none;
+    font-size: 1.3em;
+    margin: 2px;
 }
 .diferente{
     font-size: 1em;
     background-color: grey;
-    margin-top: 3px;
+    color: black;
+    border: none;
     height: 60px;
     width: 60px;
     border-radius: 100%;
-    border-color: none;
-    box-shadow: none;
+    font-size: 1.3em;
+    margin: 2px;
 }
 .outro{
-    font-size: 1em;
+    font-size: 1.3em;
     background-color: orange;
-    margin-top: 3px;
+    color: black;
+    border: none;
     height: 60px;
     width: 60px;
     border-radius: 100%;
-    border-color: none;
-    box-shadow: none;
+    margin: 2px;
 } 
+
 .espaco{
     background-color: rgb(39, 39, 39);
     color: white;
-    margin-top: 3px;
+    border: none;
     height: 60px;
-    text-indent: 20px;
-    font-size: 1em;
-    width: 100px;
-    padding-right: 120px;
-    border-radius: 30px;
-    border-color: none;
-    box-shadow: none;
+    width: 121px;
+    font-size: 1.3em;
+    border-radius: 27px;
+    margin: 2px;
 }

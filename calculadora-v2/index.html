@@ -3,42 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo/style.css">
     <title>Calculadora</title>
 </head>
 <body>
     <div id="content">
-        <p></p>
-        <div class="botoes">
-            <button class="diferente">AC</button>
-            <button class="diferente">+/-</button>
-            <button class="diferente">%</button>
-            <button class="outro">/</button>
-        </div>
-        <div class="botoes">
-            <button class="botao">7</button>
-            <button class="botao">8/-</button>
-            <button class="botao">9</button>
-            <button class="outro">X</button>
-        </div>
-        <div class="botoes">
-            <button class="botao">4</button>
-            <button class="botao">5</button>
-            <button class="botao">6</button>
-            <button class="outro">-</button>
-        </div>
-        <div class="botoes">
-            <button class="botao">1</button>
-            <button class="botao">2</button>
-            <button class="botao">3</button>
-            <button class="outro">+</button>
-        </div>
-        <div class="botoes">
-            <button class="espaco">0</button>
-            <button class="botao">,</button>
-            <button class="outro">=</button>
-        </div>
+        <p id="resultado">0</p>
+        <table>
+            <tr class="botoes">
+                <td><button class="diferente">AC</button></td>
+                <td><button class="diferente">+/-</button></td>
+                <td><button class="diferente">%</button></td>
+                <td><button class="outro">/</button></td>
+            </tr>
+            <tr class="botoes">
+                <td><button class="botao">7</button></td>
+                <td><button class="botao">8/-</button></td>
+                <td><button class="botao">9</button></td>
+                <td><button class="outro">X</button></td>
+            </tr>
+            <tr class="botoes">
+                <td><button class="botao">4</button></td>
+                <td><button class="botao">5</button></td>
+                <td><button class="botao">6</button></td>
+                <td><button class="outro">-</button></td>
+            </tr>
+            <tr class="botoes">
+                <td><button class="botao">1</button></td>
+                <td><button class="botao">2</button></td>
+                <td><button class="botao">3</button></td>
+                <td><button class="outro">+</button></td>
+            </tr>
+            <tr class="botoes">
+                <td colspan="2"><button class="espaco">0</button></td>
+                <td><button class="botao">,</button></td>
+                <td><button class="outro">=</button></td>
+            </tr>
+            
+        </table>
+        
+        
     </div>
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>
