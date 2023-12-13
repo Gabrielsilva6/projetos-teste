@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        form {
+            background-color: rgba(211, 211, 211, 0.527);
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 25px;
+            padding: 20px;
+            margin-top: 350px;
+        }
+
+        p {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        span {
+            color: rgba(0, 0, 0, 0.377);
+            font-size: 11px;
+        }
+
+        input {
+            padding: 6px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        #center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+        }
+
+        #dados {
+            padding: 20px;
+        }
+
+        #endereco {
+            padding: 20px;
+        }
+
+        #banco {
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+
+        #inome {
+            width: 250px;
+        }
+
+        #icep {
+            width: 100px;
+        }
+
+        #icid {
+            width: 100px;
+        }
+
+        #iest {
+            width: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="center">
+        <h1>Formulário</h1>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <fieldset id="dados">
+                <legend>Dados Pessoais</legend>
+                <p>
+                    <label for="inome">Nome</label> <br>
+                    <input type="text" name="nome" id="inome" required>
+                </p>
+                <p>
+                    <label for="inas">Data de Nascimento</label> <br>
+                    <input type="date" name="nas" id="inas" value="2023-12-13" required>
+                </p>
+                <p>
+                    <label for="icpf">Cpf</label> <br>
+                    <input type="number" name="cpf" id="icpf" required>
+                </p>
+            </fieldset>
+
+            <fieldset id="endereco">
+                <legend>Endereço</legend>
+                <p>
+                    <label for="icep">CEP</label> <br>
+                    <input type="number" name="cep" id="icep" required>
+                </p>
+                <p>
+                    <label for="icid">Cidade</label> <br>
+                    <input type="text" name="cid" id="icid" required>
+                </p>
+                <p>
+                    <label for="iest">Estado</label> <br>
+                    <select name="est" id="iest">
+                        <optgroup>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN"> Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocanctins</option>
+                            <option value="DF">Distrito Federal</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label for="ibai">Bairro</label> <br>
+                    <input type="text" name="bai" id="ibai" required>
+                </p>
+                <p>
+                    <label for="irua">Rua</label> <br>
+                    <input type="text" name="rua" id="irua" required>
+                </p>
+                <p>
+                    <label for="inum">Número</label> <br>
+                    <input type="number" name="num" id="inum" required>
+                </p>
+                <p>
+                    <label for="icom">Complemento <span>- Opcional</span></label> <br>
+                    <input type="text" name="com" id="icom">
+                </p>
+            </fieldset>
+            
+            <fieldset id="banco">
+                <legend>Dados Bancários</legend>
+                <p>
+                    <label for="iban">Banco</label> <br>
+                    <input type="text" name="ban" id="iban" required>
+                </p>
+                <p>
+                    <label for="iage">Agência</label> <br>
+                    <input type="number" name="age" id="iage" required>
+                </p>
+                <p>
+                    <label for="icon">Conta</label> <br>
+                    <input type="number" name="con" id="icon" required>
+                </p>
+            </fieldset>
+            <p id="outro">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        
+        </form>
+    </div>
+</body>
+</html>
