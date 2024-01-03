@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg , #151F30 , #103778 , #0593A2);
+}
+
+#content {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+}
+
+h1 { 
+    font-size: 2em;
+    color: #E3371E;
+    padding: 15px;
+    text-align: center;
+}
+
+p {
+    height: 50px;
+    background-color: #ff79485d;
+    margin: 0px 6px;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 2.7em;
+    padding-right: 7px;
+}
+
+table {
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.botao {
+    margin: 2px;
+    height: 65px;
+    width: 65px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e3381ec4;
+    color: white;
+    font-size: 1.4em;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #e3381eb0;
+}
+
+.zero {
+    margin: 2px;
+    height: 65px;
+    width: 134px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e3381ec4;
+    color: white;
+    font-size: 1.4em;
+}
+
+.zero:hover {
+    cursor: pointer;
+    background-color: #e3381eb0;
+}
+
+.igual {
+    margin: 2px;
+    height: 134px;
+    width: 65px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e3381ec4;
+    color: white;
+    font-size: 1.4em;
+}
+
+.igual:hover {
+    cursor: pointer;
+    background-color: #e3381eb0;
+}
