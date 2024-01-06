@@ -34,12 +34,16 @@ function enviar() {
         break
 
         case 4:
-            var txtat = window.prompt("Digite o ano atual: ")
+            var data = new Date()
+            var at = data.getFullYear()
             var txtan = window.prompt("Digite o ano que você nasceu: ")
-            var at = Number(txtat)
             var an = Number(txtan)
-            var idade = at - an
-            esc.innerHTML = `Em ${at} você terá: <strong>${idade} anos</strong>`
+            if (an >= at || an < 1900) {
+                window.alert('[ERRO] Verifique os dados e tente novamente!')
+            } else {
+                var idade = at - an
+                esc.innerHTML = `Em ${at} você terá: <strong>${idade} anos</strong>`
+            }
         break
     }
 }
