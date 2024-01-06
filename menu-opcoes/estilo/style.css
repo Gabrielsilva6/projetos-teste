@@ -75,6 +75,7 @@ input#opcao {
     border-radius: 5px;
     background-color: var(--cor2);
     color: white;
+    font-size: 17px;
 }
 
 #en:hover {
