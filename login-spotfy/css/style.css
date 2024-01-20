@@ -1,0 +1,264 @@
+* {
+    padding: 25;
+    margin: 25;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+    background-color: #000000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-logo {
+    width: 79px;
+}
+
+#container {
+   width: 90%;  
+}
+
+header {
+    margin-top: 40px;
+}
+
+.titulo-entrar {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 1.9em;
+    margin-top: 32px;
+}
+
+.bt-google {
+    color: white;
+    background-color: #000000;
+    width: 100%;
+    height: 47px;
+    border: none;
+    border: 1px solid #7e7e7e;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-google {
+    width: 23px;
+    float: left;
+    margin-left: 30px;
+}
+
+#txt-google {
+    margin-left: -30px;
+}
+
+.bt-facebook {
+    color: white;
+    background-color: #000000;
+    width: 100%;
+    height: 47px;
+    border: none;
+    border: 1px solid #7e7e7e;
+    border-radius: 30px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-facebook {
+    width: 23px;
+    float: left;
+    margin-left: 30px;
+}
+
+#txt-facebook {
+    margin-left: -30px;
+}
+
+.bt-apple {
+    color: white;
+    background-color: #000000;
+    width: 100%;
+    height: 47px;
+    border: none;
+    border: 1px solid #7e7e7e;
+    border-radius: 30px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-apple {
+    width: 19px;
+    float: left;
+    margin-left: 30px;
+}
+
+#txt-apple {   
+    margin-left: -30px;
+}
+
+.bt-telefone {
+    color: white;
+    background-color: #000000;
+    width: 100%;
+    height: 47px;
+    border: none;
+    border: 1px solid #7e7e7e;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.divisao {
+    border: none;
+    border-top: 1px solid #7e7e7e60;
+    margin-top: 40px;
+}
+
+.p-email {
+    margin-top: 35px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+}
+
+.input-email {
+    background-color: #121212;
+    border: none;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #7e7e7e;
+    border-radius: 4px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Heebo', sans-serif;
+    text-indent: 12px;
+}
+
+.p-senha {
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+}
+
+.input-senha {
+    background-color: #121212;
+    border: none;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #7e7e7e;
+    border-radius: 4px;
+    margin-top: 7px;
+    font-size: 15px;
+    font-family: 'Heebo', sans-serif;
+    text-indent: 12px;
+}
+
+#chk {
+    margin-top: 30px;
+    display: none;
+}
+
+.switch {
+    position: relative;
+    background-color: #7e7e7e;
+    width: 25px;
+    height: 11px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    transition: all .1s ease-in-out;
+}
+
+.slider {
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    transition: all .1s ease-in-out;
+}
+
+#chk:checked ~ .switch {
+    background-color: #1ED760;
+}
+
+#chk:checked ~ .switch .slider {
+    transform: translateX(12.5px);
+}
+
+.lembre {
+    display: inline-block;
+    margin-left: 40px;
+    text-align: justify;
+    width: 400px;
+    font-size: 13px;
+}
+
+.bt-entrar {
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    border: none;
+    background-color: #1ED760;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    width: 100%;
+    height: 48px;
+    border-radius: 30px;
+}
+
+.bt-entrar:hover {
+    width: 104%;
+    height: 50px;
+    margin-left: -2%;
+    font-size: 1.1em;
+}
+
+.link-esqueceu-a-senha {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.link-esqueceu-a-senha > a {
+    color: white;
+    font-size: 15px;
+}
+
+.txt-nao-tem-conta {
+    text-align: center;
+    margin-top: 20px;
+    color: #929292;
+}
+
+.link-inscrever-se {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link-inscrever-se > a {
+    color: white;
+    font-size: 16px;
+}
+
+footer {
+    color: #7c7c7c;
+    font-size: 11px;
+    margin-top: 80px;
+    margin-bottom: 32px;
+    line-height: 15px;
+    text-align: center;
+}
+
+footer > p > a {
+    color: #7e7e7e;
+}

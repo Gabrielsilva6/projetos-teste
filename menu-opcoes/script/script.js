@@ -45,5 +45,9 @@ function enviar() {
                 esc.innerHTML = `Em ${at} você terá: <strong>${idade} anos</strong>`
             }
         break
+        
+        default :
+            window.alert('[ERRO]Número inválido ou Campo vazio')
+        break
     }
 }
