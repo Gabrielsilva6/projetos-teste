@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow: hidden;
+}
+
+#container {
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fundo {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+}
+
+.carro-andando {
+    position: absolute;
+    top: 780px;
+    width: 300px;
+    animation: move 4s infinite linear;
+}
+
+@keyframes mover {
+    0% {
+        right: 0%;
+    }
+
+    100% {
+        right: 100%;
+    }
+}
+
+@keyframes move {
+    0% {
+        left: -30%;
+    }
+
+    100% {
+        left: 98%;
+    }
+  }

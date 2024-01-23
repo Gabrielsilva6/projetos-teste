@@ -245,6 +245,14 @@ header {
     font-size: 15px;
 }
 
+#tela-maior {
+    display: none;
+}
+
+.divisao-telas-grandes {
+    display: none;
+}
+
 .txt-nao-tem-conta {
     text-align: center;
     margin-top: 20px;
