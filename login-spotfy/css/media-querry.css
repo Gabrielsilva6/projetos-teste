@@ -1,4 +1,4 @@
-@media screen and (min-width: 399px) and (max-width: 667px)/*Bug botao*/ {
+@media screen and (min-width: 400px) and (max-width: 767px)/*Bug botao*/ {
     .bt-telefone {
         padding: 13px;
     }
