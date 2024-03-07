@@ -13,6 +13,7 @@ function calcular() {
     sobrepeso.style = 'background-color: white;'
     obesidade.style = 'background-color: white;'
     obesidade_grave.style = 'background-color: white;'
+    res.innerHTML = ''
     let alt = Number(txtalt.value)
     let peso = Number(txtpeso.value)
     let imc0 = peso / alt
@@ -21,16 +22,17 @@ function calcular() {
         window.alert('[ERRO] Digite um valor')
     } else {
         res.innerHTML = imc.toFixed(2)
+        if (imc < 18.5) {
+            magro.style = 'background-color: rgb(187, 187, 187);'
+        } else if (imc < 25) {
+            normal.style = 'background-color: rgb(187, 187, 187);'
+        } else if (imc < 30) {
+            sobrepeso.style = 'background-color: rgb(187, 187, 187);'
+        } else if (imc < 40) {
+            obesidade.style = 'background-color: rgb(187, 187, 187);'
+        } else if (imc >= 40) {
+            obesidade_grave.style = 'background-color: rgb(187, 187, 187);'
+        }
     }
-    if (imc < 18.5) {
-        magro.style = 'background-color: rgb(187, 187, 187);'
-    } else if (imc < 25) {
-        normal.style = 'background-color: rgb(187, 187, 187);'
-    } else if (imc < 30) {
-        sobrepeso.style = 'background-color: rgb(187, 187, 187);'
-    } else if (imc < 40) {
-        obesidade.style = 'background-color: rgb(187, 187, 187);'
-    } else if (imc >= 40) {
-        obesidade_grave.style = 'background-color: rgb(187, 187, 187);'
-    }
+
 }
