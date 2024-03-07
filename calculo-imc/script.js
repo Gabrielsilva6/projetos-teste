@@ -8,11 +8,11 @@ var obesidade = document.querySelector('tr.obesidade')
 var obesidade_grave = document.querySelector('tr.obesidade_grave')
 
 function calcular() {
-    magro.style = 'background-color: white;'
-    normal.style = 'background-color: white;'
-    sobrepeso.style = 'background-color: white;'
-    obesidade.style = 'background-color: white;'
-    obesidade_grave.style = 'background-color: white;'
+    magro.style = 'background-color: rgba(240, 248, 255, 0);'
+    normal.style = 'background-color: rgba(240, 248, 255, 0);'
+    sobrepeso.style = 'background-color: rgba(240, 248, 255, 0);'
+    obesidade.style = 'background-color: rgba(240, 248, 255, 0);'
+    obesidade_grave.style = 'background-color: rgba(240, 248, 255, 0);'
     res.innerHTML = ''
     let alt = Number(txtalt.value)
     let peso = Number(txtpeso.value)
@@ -23,15 +23,15 @@ function calcular() {
     } else {
         res.innerHTML = imc.toFixed(2)
         if (imc < 18.5) {
-            magro.style = 'background-color: rgb(187, 187, 187);'
+            magro.style = 'background-color: #004bfac2;'
         } else if (imc < 25) {
-            normal.style = 'background-color: rgb(187, 187, 187);'
+            normal.style = 'background-color: #004bfac2'
         } else if (imc < 30) {
-            sobrepeso.style = 'background-color: rgb(187, 187, 187);'
+            sobrepeso.style = 'background-color: #004bfac2'
         } else if (imc < 40) {
-            obesidade.style = 'background-color: rgb(187, 187, 187);'
+            obesidade.style = 'background-color: #004bfac2'
         } else if (imc >= 40) {
-            obesidade_grave.style = 'background-color: rgb(187, 187, 187);'
+            obesidade_grave.style = 'background-color: #004bfac2'
         }
     }
 
