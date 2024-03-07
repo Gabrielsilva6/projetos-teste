@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    padding: 30px;
+}
+
+.título_principal {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.texto_introdução_imc {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+#alinhar {
+    margin: auto;
+    width: 380px;
+}
+
+label {
+    font-size: 14px;
+}
+
+.input_altura {
+    display: inline-block;
+    width: 200px;
+}
+#ialtura {
+    height: 20px;
+    margin-top: 6px;
+}
+
+.input_peso {
+    display: inline-block;
+    width: 175px;
+}
+
+#ipeso {
+    height: 20px;
+    margin-top: 6px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.botão_calcular {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 17px;
+    background-color: rgb(190, 190, 190);
+    margin: 30px;
+}
+
+#res {
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td , th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+}
