@@ -73,6 +73,7 @@ li {
 .botao-comprar {
     border: none;
     background-color: #6eebc6da;
+    color: black;
     margin-top: 10px;
     width: 80%;
     border-radius: 7px;
