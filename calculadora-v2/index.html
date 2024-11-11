@@ -11,33 +11,33 @@
         <p id="resultado">0</p>
         <table>
             <tr class="botoes">
-                <td><button class="diferente">AC</button></td>
+                <td><button class="diferente" onclick="clean()">AC</button></td>
                 <td><button class="diferente">+/-</button></td>
                 <td><button class="diferente">%</button></td>
-                <td><button class="outro">/</button></td>
+                <td><button class="outro" onclick="insert('/')">/</button></td>
             </tr>
             <tr class="botoes">
-                <td><button class="botao">7</button></td>
-                <td><button class="botao">8</button></td>
-                <td><button class="botao">9</button></td>
-                <td><button class="outro">X</button></td>
+                <td><button class="botao" onclick="insert('7')">7</button></td>
+                <td><button class="botao" onclick="insert('8')">8</button></td>
+                <td><button class="botao" onclick="insert('9')">9</button></td>
+                <td><button class="outro" onclick="insert('x')">X</button></td>
             </tr>
             <tr class="botoes">
-                <td><button class="botao">4</button></td>
-                <td><button class="botao">5</button></td>
-                <td><button class="botao">6</button></td>
-                <td><button class="outro">-</button></td>
+                <td><button class="botao" onclick="insert('4')">4</button></td>
+                <td><button class="botao" onclick="insert('5')">5</button></td>
+                <td><button class="botao" onclick="insert('6')">6</button></td>
+                <td><button class="outro" onclick="insert('-')">-</button></td>
             </tr>
             <tr class="botoes">
-                <td><button class="botao">1</button></td>
-                <td><button class="botao">2</button></td>
-                <td><button class="botao">3</button></td>
-                <td><button class="outro">+</button></td>
+                <td><button class="botao" onclick="insert('1')">1</button></td>
+                <td><button class="botao" onclick="insert('2')">2</button></td>
+                <td><button class="botao" onclick="insert('3')">3</button></td>
+                <td><button class="outro" onclick="insert('+')">+</button></td>
             </tr>
             <tr class="botoes">
-                <td colspan="2"><button class="espaco">0</button></td>
+                <td colspan="2"><button class="espaco" onclick="insert(0)">0</button></td>
                 <td><button class="botao">,</button></td>
-                <td><button class="outro">=</button></td>
+                <td><button class="outro" onclick="result()">=</button></td>
             </tr>
             
         </table>
